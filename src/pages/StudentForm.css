@@ -1,0 +1,94 @@
+/* src/pages/StudentForm.css */
+
+.student-form-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.student-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ocupa el 100% del contenedor */
+    max-width: 100%; /* Ajusta este valor según el ancho deseado */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+
+}
+
+.student-form div {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center; /* Alinea el label y el input verticalmente */
+}
+
+.student-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100px; /* Fija un ancho para los labels */
+    margin-right: 40%; /* Espacio entre el label y el input */
+
+}
+
+.student-form input[type="text"],
+.student-form input[type="email"] {
+    width: 100%;
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.student-form button {
+    background-color: #00d4d8; 
+    color: white; 
+    padding: 10px 20px; 
+    border: 1px solid black;
+    border-radius: 8px; 
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    width: auto; 
+    max-width: 200px; 
+    display: block;
+
+}
+
+.student-form button:hover {
+    background-color: #00b2b3;
+}
+
+.error-text {
+    color: red;
+    font-size: 0.9em;
+    margin-left: 120px;
+}
+
+.form_error {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+   
+}
+
+
+.error-text {
+    color: red;
+    font-size: 0.9em;
+    margin: 0;
+    
+    align-self: flex-start;
+}
+
+
+
+
+
+

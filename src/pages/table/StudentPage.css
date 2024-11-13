@@ -1,0 +1,107 @@
+/* src/pages/StudentPage.css */
+
+/* Contenedor principal para la página de estudiantes */
+.student-page {
+  padding: 20px;
+}
+
+/* Encabezado de la página de estudiantes */
+.student-page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.75);
+}
+
+/* Botón de agregar */
+.add-button {
+  background-color: rgb(0, 212, 216);
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.75);
+}
+
+/* Contenedor y estilos para la barra de búsqueda */
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 5px;
+}
+
+.search-bar {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Estilos para la tabla de estudiantes */
+.students-table {
+  width: 100%; /* Cambiar a 100% para que ocupe todo el ancho disponible */
+  margin-top: 10px; /* Separación arriba */
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.students-table th,
+.students-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.students-table th {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Estilos específicos para el botón de borrar */
+.delete-button {
+  background-color: red;
+  color: white;
+  padding: 3px 6px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+
+/* Contenedor de paginación */
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.pagination select {
+  margin-left: 5px;
+}
+
+.page-numbers {
+  display: flex;
+  gap: 5px;
+  margin-left: 10px;
+}
+
+.page-number {
+  padding: 3px 8px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.page-number.active {
+  background-color: darkturquoise;
+  color: white;
+  font-weight: bold;
+}
